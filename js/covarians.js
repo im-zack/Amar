@@ -26,7 +26,7 @@ function calculateCovariance() {
 
   // بررسی طول مجموعه ها
   if (dataSet1.length !== dataSet2.length) {
-    throw new Error('تعداد عناصر مجموعه ها باید یکسان باشد.');
+    showCovarians.innerHTML = "تعداد اعداد مجموعه باید برابر باشند";
   }
 
   // محاسبه میانگین مجموعه ها
@@ -43,7 +43,7 @@ function calculateCovariance() {
   }
   covariance /= (dataSet1.length - 1);
 
-  showCovarians.innerHTML = "کوواریانس: " + covariance;
+  showCovarians.innerHTML = `کوواریانس ${covariance} است`;
 }
 
 calcCovariansBtn.addEventListener("click", calculateCovariance);

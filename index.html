@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,35 +9,30 @@
   </head>
   <body>
     <div class="container">
-      <h2>محاسبه واریانس</h2>
-      <br />
-      <label for="numbers">مجموعه اعداد:</label>
-      <input type="text" id="numbers" />
-  
-      <button id="result-btn">محاسبه</button>
-      <button id="var-reset-btn">reset</button>
-  
-      <div id="mean"></div>
-      <div id="varians"></div>
-      <div id="enheraf-meyar"></div>
-      <br />
+      <div class="box">
+        <h2>محاسبه واریانس</h2>
+        <label for="numbers">مجموعه اعداد:</label>
+        <input type="text" id="numbers" />
+        <button id="result-btn">محاسبه</button>
+        <button id="var-reset-btn">reset</button>
+        <div id="mean"></div>
+        <div id="varians"></div>
+        <div id="enheraf-meyar"></div>
+      </div>
       <hr />
   
       <!-- کوواریانس  -->
   
-      <h2>محاسبه کوواریانس</h2>
-      <br />
-      <label>مجموعه 1: </label>
-      <input type="text" id="collection1" />
-      <br /><br />
-      <label>مجموعه 2: </label>
-      <input type="text" id="collection2" />
-      <br /><br />
-      <button id="cov-result">محاسبه</button>
-      <button id="cov-reset-btn">reset</button>
-  
-      <br />
-      <div id="covarians"></div>
+      <div class="box">
+        <h2>محاسبه کوواریانس</h2>
+        <label>مجموعه 1: </label>
+        <input type="text" id="collection1" />
+        <label>مجموعه 2: </label>
+        <input type="text" id="collection2" />
+        <button id="cov-result">محاسبه</button>
+        <button id="cov-reset-btn">reset</button>
+        <div id="covarians"></div>
+      </div>
       <hr>
     </div>
   </body>

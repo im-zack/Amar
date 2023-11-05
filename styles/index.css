@@ -1,4 +1,19 @@
 .container{
-  width: 100%;
   margin: 1rem;
+}
+
+input{
+  padding: 5px;
+  border-radius: 5px;
+}
+button{
+  background-color: #79f9b3;
+  padding: 5px;
+  border-radius: 5px;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
 }
