@@ -19,9 +19,9 @@
         <div id="enheraf-meyar"></div>
       </div>
       <hr />
-  
+
       <!-- کوواریانس  -->
-  
+
       <div class="box">
         <h2>محاسبه کوواریانس</h2>
         <label>مجموعه 1: </label>
@@ -32,9 +32,24 @@
         <button id="cov-reset-btn">پاک کردن</button>
         <div id="covarians"></div>
       </div>
-      <hr>
+      <hr />
+      <!--رگرسیون -->
+      <div class="box">
+        <h2>محاسبه SST, SSR, SSE, R2</h2>
+        <label>مقدار Y ها: </label>
+        <input type="text" id="actualY" />
+        <label>مقدار Y هت ها: </label>
+        <input type="text" id="predictedY" />
+        <button id="reg-result">محاسبه</button>
+        <button id="reg-reset-btn">پاک کردن</button>
+        <div id="reg-sse"></div>
+        <div id="reg-sst"></div>
+        <div id="reg-ssr"></div>
+        <div id="reg-r"></div>
+      </div>
     </div>
   </body>
-  <script src="js/index.js"></script>
+  <script src="js/varians.js"></script>
   <script src="js/covarians.js"></script>
+  <script src="js/regression.js"></script>
 </html>
