@@ -26,3 +26,7 @@ button{
   gap: 10px;
   max-width: 500px;
 }
+sup {
+  font-size: 0.8em; /* Adjust the font size as desired */
+  vertical-align: super;
+}

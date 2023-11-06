@@ -61,7 +61,7 @@ function displayResults(sst, sse, ssr, rSquare) {
   regSST.innerHTML = `SST: ${sst}`;
   regSSE.innerHTML = `SSE: ${sse}`;
   regSSR.innerHTML = `SSR: ${ssr}`;
-  regR.innerHTML = `R^2: ${rSquare}`;
+  regR.innerHTML = `R2: ${rSquare}`;
 }
 
 function clearInputFields(...fields) {
